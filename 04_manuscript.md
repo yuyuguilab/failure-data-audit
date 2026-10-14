@@ -6,7 +6,7 @@ Alternate 1: "The Vacant Tier: Auditing the Lifecycle of Failure Data from Open-
 Alternate 2: "Learning from Mistakes, Except When Training: A Two-Layer Audit of Failure Data Across LLM Post-Training Practice"
 -->
 
-**Yu Yugui (Yu Yugui Strategy Lab)**
+**Yugui Yu (YYG Strategy Lab)**
 
 <!-- TODO(author): final author list, ORCID, and affiliations to be confirmed before submission. -->
 

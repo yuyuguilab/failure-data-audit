@@ -53,7 +53,7 @@ Every coding decision in `analysis/coding_data.py` carries its supporting quotat
 @article{yu2026failuredata,
   title   = {Success Provides Direction, Failure Provides Precision:
              A Structured Audit of Failure Data in LLM Training},
-  author  = {Yu, Yugui},
+  author  = {Yugui Yu},
   journal = {Yu Yugui Strategy Lab, preprint},
   year    = {2026},
   month   = {10},

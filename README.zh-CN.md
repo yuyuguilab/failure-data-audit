@@ -53,7 +53,7 @@ tectonic paper_zh.tex                   # 重编译中文 PDF
 @article{yu2026failuredata,
   title   = {Success Provides Direction, Failure Provides Precision:
              A Structured Audit of Failure Data in LLM Training},
-  author  = {Yu, Yugui},
+  author  = {Yugui Yu},
   journal = {Yu Yugui Strategy Lab, preprint},
   year    = {2026},
   month   = {10},

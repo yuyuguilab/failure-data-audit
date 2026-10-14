@@ -5,8 +5,8 @@
   "description": "<p>This repository contains the manuscripts, audit protocol, codebook, and reproducible coding data for a structured audit of failure-data practice in LLM training. We audit 33 units across two layers — public training datasets and open recipes (28 units), plus the five flagship pipelines disclosed in autumn 2026 (GPT-6 Astra, Claude Opus 5.5, GLM-5.3, MiMo-V2.6, DeepSeek-V4.1-Flash) — using a five-level ordinal lifecycle codebook: L0 discarded / L1 shadow / L2 transient / L3 component / L4 first-class citizen (error localization + attribution + reflection at scale).</p><p>Key findings: the L4 tier is vacant (0/33); mainstream open recipes reach no higher than L2 (0/15 at L3, SFT layer 7/7 L0); the 2026 autumn flagships show a generational shift (4/5 at L3, ordinal median L1 to L3); and the carrier of failure signals is migrating from preference pairs (6/15 mainstream units) to RL environments and audit loops (0/14 flagship mechanisms). Includes English and Chinese manuscripts, the L0-L4 codebook, and machine-readable coding records (44 mechanism-level entries with supporting quotations, source URLs, and confidence tiers).</p>",
   "creators": [
     {
-      "name": "Yu, Yugui",
-      "affiliation": "Yu Yugui Strategy Lab (余玉桂战略研究室)"
+      "name": "Yugui Yu",
+      "affiliation": "YYG Strategy Lab"
     }
   ],
   "keywords": [
