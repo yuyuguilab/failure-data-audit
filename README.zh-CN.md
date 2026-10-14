@@ -4,7 +4,7 @@
 
 *余玉桂 · 余玉桂战略研究室 · they4897@gmail.com*
 
-**[阅读中文版论文 (PDF)](paper_zh.pdf) · [English paper](paper.pdf) · [编码手册](docs-codebook.md) · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355930.svg)](https://doi.org/10.5281/zenodo.23355930)**
+**[阅读中文版论文 (PDF)](paper_zh.pdf) · [English paper](paper.pdf) · [编码手册](docs-codebook.md) · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355929.svg)](https://doi.org/10.5281/zenodo.23355929)**
 
 ## 摘要
 
@@ -47,7 +47,7 @@ tectonic paper_zh.tex                   # 重编译中文 PDF
 
 ## 引用
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355930.svg)](https://doi.org/10.5281/zenodo.23355930)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355929.svg)](https://doi.org/10.5281/zenodo.23355929)
 
 ```bibtex
 @article{yu2026failuredata,
@@ -57,7 +57,7 @@ tectonic paper_zh.tex                   # 重编译中文 PDF
   journal = {Yu Yugui Strategy Lab, preprint},
   year    = {2026},
   month   = {10},
-  doi     = {10.5281/zenodo.23355930},
+  doi     = {10.5281/zenodo.23355929},
   url     = {https://github.com/yuyuguilab/failure-data-audit}
 }
 ```

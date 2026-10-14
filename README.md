@@ -4,7 +4,7 @@
 
 *Yu Yugui · Yu Yugui Strategy Lab · they4897@gmail.com*
 
-**[Read the paper (PDF)](paper.pdf) · [中文版论文](paper_zh.pdf) · [Codebook](docs-codebook.md) · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355930.svg)](https://doi.org/10.5281/zenodo.23355930)**
+**[Read the paper (PDF)](paper.pdf) · [中文版论文](paper_zh.pdf) · [Codebook](docs-codebook.md) · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355929.svg)](https://doi.org/10.5281/zenodo.23355929)**
 
 ## Abstract
 
@@ -47,7 +47,7 @@ Every coding decision in `analysis/coding_data.py` carries its supporting quotat
 
 ## Citation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355930.svg)](https://doi.org/10.5281/zenodo.23355930)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355929.svg)](https://doi.org/10.5281/zenodo.23355929)
 
 ```bibtex
 @article{yu2026failuredata,
@@ -57,7 +57,7 @@ Every coding decision in `analysis/coding_data.py` carries its supporting quotat
   journal = {Yu Yugui Strategy Lab, preprint},
   year    = {2026},
   month   = {10},
-  doi     = {10.5281/zenodo.23355930},
+  doi     = {10.5281/zenodo.23355929},
   url     = {https://github.com/yuyuguilab/failure-data-audit}
 }
 ```
