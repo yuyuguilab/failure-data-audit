@@ -1,0 +1,40 @@
+{
+  "title": "Success Provides Direction, Failure Provides Precision: A Structured Audit of Failure Data in LLM Training（成功给方向，失败给精度：大模型训练中失败数据的结构化审计）",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>This repository contains the manuscripts, audit protocol, codebook, and reproducible coding data for a structured audit of failure-data practice in LLM training. We audit 33 units across two layers — public training datasets and open recipes (28 units), plus the five flagship pipelines disclosed in autumn 2026 (GPT-6 Astra, Claude Opus 5.5, GLM-5.3, MiMo-V2.6, DeepSeek-V4.1-Flash) — using a five-level ordinal lifecycle codebook: L0 discarded / L1 shadow / L2 transient / L3 component / L4 first-class citizen (error localization + attribution + reflection at scale).</p><p>Key findings: the L4 tier is vacant (0/33); mainstream open recipes reach no higher than L2 (0/15 at L3, SFT layer 7/7 L0); the 2026 autumn flagships show a generational shift (4/5 at L3, ordinal median L1 to L3); and the carrier of failure signals is migrating from preference pairs (6/15 mainstream units) to RL environments and audit loops (0/14 flagship mechanisms). Includes English and Chinese manuscripts, the L0-L4 codebook, and machine-readable coding records (44 mechanism-level entries with supporting quotations, source URLs, and confidence tiers).</p>",
+  "creators": [
+    {
+      "name": "Yu, Yugui",
+      "affiliation": "Yu Yugui Strategy Lab (余玉桂战略研究室)"
+    }
+  ],
+  "keywords": [
+    "large language models",
+    "training data",
+    "failure data",
+    "negative samples",
+    "learning from mistakes",
+    "process supervision",
+    "reinforcement learning from verifiable rewards",
+    "generalization",
+    "calibration",
+    "data audit",
+    "大语言模型",
+    "失败数据",
+    "错题本",
+    "训练数据审计"
+  ],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/yuyuguilab/failure-data-audit",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Code in analysis/ is licensed MIT; manuscripts, codebook, figures, and coding data are CC BY 4.0. Author contact: they4897@gmail.com. All audit conclusions are limited to disclosed practice; every coding decision carries its supporting quotation and source URL.",
+  "version": "v1.0.0"
+}
