@@ -1,0 +1,433 @@
+% references.bib — companion to paper.tex (was 04_manuscript.md)
+% Numbered in-text citations [1]–[45] map to entries in order below (use unsrtnat = order of first citation).
+% arXiv entries verified against the audit's citation chain (manuscript Section 4.3):
+%   PRS = arXiv:2606.26027 (analyzer gpt-5-mini; +22.25 points, never "25x")
+%   DAPO = arXiv:2503.14476 (corrected from the erroneous 2412.19337)
+%   Embodied "9440/78623" dataset removed from the evidence chain (unverifiable).
+% 2026-10-13 submission-preparer pass: author lists and venues completed from the arXiv
+%   metadata API and CrossRef (details in 05_submission_package.md §5).
+% Author-list policy: full lists up to ~40 authors; for mega-author corporate reports
+%   (Llama 2/3, Qwen3, GLM, MiMo, DeepSeek) the corporate/team name or first authors
+%   plus "and others" is used, following the primary source's own citation practice.
+
+% ---------- 1. Motivation (secondary-tier: background only, never claim support) ----------
+
+@misc{waic2026,
+  author       = {{Jiang, Yungang}},
+  title        = {Remarks at the {WAIC} 2026 ``Corpus Foundations'' forum, reported by {People's Daily Online}, 2026-07-19},
+  year         = {2026},
+  howpublished = {People's Daily Online},
+  url          = {http://sh.people.com.cn/n2/2026/0719/c134768-41643408.html},
+  note         = {Secondary-tier (news) source; used for motivation only per audit gate G2. Reporter byline TODO.}
+}
+
+% ---------- 2–3. Cognitive-science antecedents ----------
+
+@article{hertwig2009,
+  author  = {Hertwig, Ralph and Erev, Ido},
+  title   = {The description--experience gap in risky choice: {A} review},
+  journal = {Trends in Cognitive Sciences},
+  volume  = {13},
+  number  = {12},
+  pages   = {517--523},
+  year    = {2009},
+  doi     = {10.1016/j.tics.2009.09.021}
+}
+
+@article{bechara2005,
+  author  = {Bechara, Antoine and Damasio, Hanna and Tranel, Daniel and Damasio, Antonio R.},
+  title   = {The {Iowa Gambling Task} and the somatic marker hypothesis: {S}ome questions and answers},
+  journal = {Trends in Cognitive Sciences},
+  volume  = {9},
+  number  = {4},
+  pages   = {159--162},
+  year    = {2005},
+  doi     = {10.1016/j.tics.2005.02.002}
+}
+
+% ---------- 4–7. Weakest dimensions: generalization and calibration ----------
+
+@inproceedings{yue2025rlvr,
+  author    = {Yue, Yang and Chen, Zhiqi and Lu, Rui and Zhao, Andrew and Wang, Zhaokai and Yue, Yang and Song, Shiji and Huang, Gao},
+  title     = {Does reinforcement learning really incentivize reasoning capacity in {LLMs} beyond the base model?},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2025},
+  eprint    = {2504.13837},
+  archivePrefix = {arXiv},
+  note      = {LeapLab; NeurIPS 2025 Oral}
+}
+
+@misc{kalai2025halluc,
+  author       = {Kalai, Adam Tauman and Nachum, Ofir and Vempala, Santosh S. and Zhang, Edwin},
+  title        = {Why language models hallucinate},
+  year         = {2025},
+  eprint       = {2509.04664},
+  archivePrefix = {arXiv}
+}
+
+@misc{he2023calibration,
+  author       = {He, Guande and Cui, Peng and Chen, Jianfei and Hu, Wenbo and Zhu, Jun},
+  title        = {Investigating uncertainty calibration of aligned language models under the multiple-choice setting},
+  year         = {2023},
+  eprint       = {2310.11732},
+  archivePrefix = {arXiv}
+}
+
+@misc{xie2026know,
+  author       = {Xie, Xiaohu and Liu, Xiaohu and Yao, Benjamin},
+  title        = {Know when you're wrong: {A}ligning confidence with correctness for {LLM} error detection},
+  year         = {2026},
+  eprint       = {2603.06604},
+  archivePrefix = {arXiv}
+}
+
+% ---------- 8–9. Family 3 core evidence (verified citation chain) ----------
+
+@misc{an2023lema,
+  author       = {An, Shengnan and Ma, Zexiong and Lin, Zeqi and Zheng, Nanning and Lou, Jian-Guang and Chen, Weizhu},
+  title        = {Learning from mistakes makes {LLM} better reasoner},
+  year         = {2023},
+  eprint       = {2310.20689},
+  archivePrefix = {arXiv},
+  note         = {LEMA. Microsoft.}
+}
+
+@misc{hao2026prs,
+  author       = {Hao, Yupu and Jin, Zhuoran and Liao, Huanxuan and Liu, Kang and Zhao, Jun},
+  title        = {Why multi-step tool-use reinforcement learning collapses and how supervisory signals fix it},
+  year         = {2026},
+  eprint       = {2606.26027},
+  archivePrefix = {arXiv},
+  note         = {PRS. Key Laboratory of Cognition and Decision Intelligence Complex Systems, Institute of Automation, CAS. Reflection-report analyzer: gpt-5-mini. Headline numbers: BFCL-V3 25.75 vs GRPO 3.50 (+22.25 points); ACEBench double-unseen 12.00 vs SFT 0.00.}
+}
+
+% ---------- 10–12. Family 1: contrastive negatives ----------
+
+@article{yang2024negsampling,
+  author  = {Yang, Zhen and Ding, Ming and Huang, Tinglin and Cen, Yukuo and Song, Junshuai and Xu, Bin and Dong, Yuxiao and Tang, Jie},
+  title   = {Does negative sampling matter? {A} review with insights into its theory and applications},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume  = {46},
+  number  = {8},
+  pages   = {5692--5711},
+  year    = {2024},
+  doi     = {10.1109/TPAMI.2024.3371473}
+}
+
+@inproceedings{awasthi2022negative,
+  author    = {Awasthi, Pranjal and Dikkala, Nishanth and Kamath, Pritish},
+  title     = {Do more negative samples necessarily hurt in contrastive learning?},
+  booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
+  year      = {2022},
+  eprint    = {2205.01789},
+  archivePrefix = {arXiv}
+}
+
+@inproceedings{cao2026ndcl,
+  author    = {Cao, Meng and Liu, Jiexi and Chen, Songcan},
+  title     = {Negatives-dominant contrastive learning for generalization in imbalanced domains},
+  booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
+  year      = {2026},
+  eprint    = {2601.21999},
+  archivePrefix = {arXiv},
+  note      = {NDCL.}
+}
+
+% ---------- 13–16. Family 2: process supervision and error-location benchmarks ----------
+
+@inproceedings{lightman2023verify,
+  author    = {Lightman, Hunter and Kosaraju, Vineet and Burda, Yura and Edwards, Harri and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl},
+  title     = {Let's verify step by step},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  eprint    = {2305.20050},
+  archivePrefix = {arXiv},
+  note      = {PRM800K: 800k step-level human ratings.}
+}
+
+@inproceedings{wang2024mathshepherd,
+  author    = {Wang, Peiyi and Li, Lei and Shao, Zhihong and Xu, R. X. and Dai, Damai and Li, Yifei and Chen, Deli and Wu, Y. and Sui, Zhifang},
+  title     = {{Math-Shepherd}: Verify and reinforce {LLMs} step-by-step without human annotations},
+  booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2024},
+  eprint    = {2312.08935},
+  archivePrefix = {arXiv}
+}
+
+@inproceedings{zheng2024processbench,
+  author    = {Zheng, Chujie and Zhang, Zhenru and Zhang, Beichen and Lin, Runji and Lu, Keming and Yu, Bowen and Liu, Dayiheng and Zhou, Jingren and Lin, Junyang},
+  title     = {{ProcessBench}: Identifying process errors in mathematical reasoning},
+  booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2025},
+  eprint    = {2412.06559},
+  archivePrefix = {arXiv}
+}
+
+@misc{song2025prmbench,
+  author       = {Song, Mingyang and Su, Zhaochen and Qu, Xiaoye and Zhou, Jiawei and Cheng, Yu},
+  title        = {{PRMBench}: A fine-grained and challenging benchmark for process-level reward models},
+  year         = {2025},
+  eprint       = {2501.03124},
+  archivePrefix = {arXiv}
+}
+
+% ---------- 17–18. Embodied / adjacent failure detection ----------
+
+@misc{duan2024aha,
+  author       = {Duan, Jiafei and Pumacay, Wilbert and Kumar, Nishanth and Wang, Yi Ru and Tian, Shulin and Yuan, Wentao and Krishna, Ranjay and Fox, Dieter and Mandlekar, Ajay and Guo, Yijie},
+  title        = {{AHA}: A vision-language-model for detecting and reasoning over failures in robotic manipulation},
+  year         = {2024},
+  eprint       = {2410.00371},
+  archivePrefix = {arXiv}
+}
+
+@misc{zhang2026foresight,
+  author       = {Zhang, Haoran and Lu, Yifu and Wang, Boyang and Kang, Xuhui and Kuo, Yen-Ling and Cheng, Zezhou and Wang, Mengdi and Jenkins, Odest Chadwicke},
+  title        = {Foresight: Failure detection for long-horizon robotic manipulation with action-conditioned world model latents},
+  year         = {2026},
+  eprint       = {2606.23085},
+  archivePrefix = {arXiv}
+}
+
+% ---------- 19–26. Family 4: preference-pair rejected side ----------
+
+@misc{grattafiori2024llama3,
+  author       = {Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and others},
+  title        = {The {Llama 3} herd of models},
+  year         = {2024},
+  eprint       = {2407.21783},
+  archivePrefix = {arXiv},
+  note         = {Meta. 561 authors; full list in the arXiv record.}
+}
+
+@misc{qwen2025qwen3,
+  author       = {{Qwen Team}},
+  title        = {{Qwen3} technical report},
+  year         = {2025},
+  eprint       = {2505.09388},
+  archivePrefix = {arXiv},
+  note         = {60 authors; full list in the arXiv record.}
+}
+
+@misc{lambert2025tulu3,
+  author       = {Lambert, Nathan and Morrison, Jacob and Pyatkin, Valentina and Huang, Shengyi and Ivison, Hamish and Brahman, Faeze and Miranda, Lester James V. and Liu, Alisa and Dziri, Nouha and Lyu, Shane and Gu, Yuling and Malik, Saumya and Graf, Victoria and Hwang, Jena D. and Yang, Jiangjiang and Le Bras, Ronan and Tafjord, Oyvind and Wilhelm, Chris and Soldaini, Luca and Smith, Noah A. and Wang, Yizhong and Dasigi, Pradeep and Hajishirzi, Hannaneh},
+  title        = {{T\"ULU 3}: Pushing frontiers in open language model post-training},
+  year         = {2025},
+  eprint       = {2411.15124},
+  archivePrefix = {arXiv}
+}
+
+@misc{anthropic2022hhrlhf,
+  author       = {{Anthropic}},
+  title        = {{HH-RLHF}: Human preference data regarding helpfulness and harmlessness},
+  year         = {2022},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/Anthropic/hh-rlhf}
+}
+
+@misc{openbmb2023ultrafeedback,
+  author       = {{OpenBMB}},
+  title        = {{UltraFeedback}},
+  year         = {2023},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/openbmb/UltraFeedback}
+}
+
+@misc{hftb2024smoltalk,
+  author       = {{HuggingFaceTB}},
+  title        = {{SmolTalk}: {SmolLM2} post-training corpus},
+  year         = {2024},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/HuggingFaceTB/smoltalk}
+}
+
+@misc{zai2025glm45,
+  author       = {{Z.ai}},
+  title        = {{GLM-4.5} technical report: {A}gentic, reasoning, and coding ({ARC}) foundation models},
+  year         = {2025},
+  eprint       = {2508.06471},
+  archivePrefix = {arXiv},
+  note         = {MIPO (mixed preference optimization with graded negative samples); retired in GLM 5.x per audit record CR3.}
+}
+
+@inproceedings{zhang2024npo,
+  author    = {Zhang, Ruiqi and Lin, Licong and Bai, Yu and Mei, Song},
+  title     = {Negative preference optimization: {F}rom catastrophic collapse to effective unlearning},
+  booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
+  year      = {2024},
+  eprint    = {2404.05868},
+  archivePrefix = {arXiv},
+  note      = {NPO.}
+}
+
+% ---------- 27–30. Family 5: RL failure signals ----------
+
+@misc{deepseek2025r1,
+  author       = {{DeepSeek-AI}},
+  title        = {{DeepSeek-R1}: Incentivizing reasoning capability in {LLMs} via reinforcement learning},
+  year         = {2025},
+  eprint       = {2501.12948},
+  archivePrefix = {arXiv},
+  doi          = {10.1038/s41586-025-09422-z},
+  note         = {Published in Nature 645:633--638 (2025).}
+}
+
+@misc{yu2025dapo,
+  author       = {Yu, Qiying and Zhang, Zheng and Zhu, Ruofei and Yuan, Yufeng and Zuo, Xiaochen and Yue, Yu and Dai, Weinan and Fan, Tiantian and Liu, Gaohong and Liu, Lingjun and Liu, Xin and Lin, Haibin and Lin, Zhiqi and Ma, Bole and Sheng, Guangming and Tong, Yuxuan and Zhang, Chi and Zhang, Mofan and Zhang, Wang and Zhu, Hang and Zhu, Jinhua and Chen, Jiaze and Chen, Jiangjie and Wang, Chengyi and Yu, Hongli and Song, Yuxuan and Wei, Xiangpeng and Zhou, Hao and Liu, Jingjing and Ma, Wei-Ying and Zhang, Ya-Qin and Yan, Lin and Qiao, Mu and Wu, Yonghui and Wang, Mingxuan},
+  title        = {{DAPO}: An open-source {LLM} reinforcement learning system at scale},
+  year         = {2025},
+  eprint       = {2503.14476},
+  archivePrefix = {arXiv},
+  note         = {ByteDance Seed \& SIA. Identifier corrected from the erroneous 2412.19337 per audit verification chain.}
+}
+
+@misc{song2024eto,
+  author       = {Song, Yifan and Yin, Da and Yue, Xiang and Huang, Jie and Li, Sujian and Lin, Bill Yuchen},
+  title        = {Trial and error: {E}xploration-based trajectory optimization for {LLM} agents},
+  year         = {2024},
+  eprint       = {2403.02502},
+  archivePrefix = {arXiv},
+  note         = {ETO.}
+}
+
+@misc{yuan2024ultrainteract,
+  author       = {Yuan, Lifan and Cui, Ganqu and Wang, Hanbin and Ding, Ning and Wang, Xingyao and Deng, Jia and Shan, Boji and Chen, Huimin and Xie, Ruobing and Lin, Yankai and Liu, Zhenghao and Zhou, Bowen and Peng, Hao and Liu, Zhiyuan and Sun, Maosong},
+  title        = {Advancing {LLM} reasoning generalists with preference trees},
+  year         = {2024},
+  eprint       = {2404.02078},
+  archivePrefix = {arXiv},
+  note         = {Introduces the UltraInteract dataset.}
+}
+
+% ---------- 31–36. 2026 flagship disclosures (first-party) ----------
+
+@misc{openai2026gpt6,
+  author       = {{OpenAI}},
+  title        = {{GPT-6 Astra} system card},
+  year         = {2026},
+  howpublished = {OpenAI Deployment Safety Hub},
+  url          = {https://deploymentsafety.openai.com/gpt-6-astra},
+  note         = {Accessed 2026-10-13. RL penalty quote: ``penalize cheating and unauthorized actions''.}
+}
+
+@misc{anthropic2026claude,
+  author       = {{Anthropic}},
+  title        = {{Claude Opus 5.5} system card and {Alignment Intelligence Report} materials},
+  year         = {2026},
+  howpublished = {anthropic.com},
+  note         = {Accessed 2026-10-13. Direct URL to be registered at submission (audit item A3-2); quotes are excerpt-level.}
+}
+
+@misc{zai2026glm5,
+  author       = {{Z.ai}},
+  title        = {{GLM-5}: From vibe coding to agentic engineering},
+  year         = {2026},
+  eprint       = {2602.15763},
+  archivePrefix = {arXiv},
+  note         = {Anchor for GLM-5.3 disclosures. Section 3.1: ``Erroneous segments within trajectories are retained but masked out in the loss function, allowing the model to learn error correction behaviors.'' (verbatim, high confidence).}
+}
+
+@misc{xiaomi2026mimo,
+  author       = {{Xiaomi LLM-Core Team}},
+  title        = {{MiMo-V2.6}: Scaling reinforcement learning towards self-improvement},
+  year         = {2026},
+  eprint       = {2610.11959},
+  archivePrefix = {arXiv},
+  note         = {Section 4.2.6 quote: ``keeps the original error recognizable and makes the correction explicit'' (verbatim, high confidence).}
+}
+
+@misc{deepseek2026v41,
+  author       = {{DeepSeek-AI}},
+  title        = {{DeepSeek-V4.1-Flash}: Pushing the limits of {KV} cache compression},
+  year         = {2026},
+  eprint       = {2609.19969},
+  archivePrefix = {arXiv},
+  note         = {Section 5.1.1 quotes: ``we collect negative feedback and model failure cases submitted by internal employees at scale''; ``systematic replay of failures and targeted RL against observed model weaknesses'' (verbatim, high confidence).}
+}
+
+@misc{cac2026corpus,
+  author       = {{Cyberspace Administration of China}},
+  title        = {Chinese foundational corpus 4.0 release},
+  year         = {2026},
+  howpublished = {cac.gov.cn},
+  url          = {https://www.cac.gov.cn/2026-09/16/c_1791306277101208.htm},
+  note         = {Secondary-tier (policy release) source; background only per audit gate G2.}
+}
+
+% ---------- 37–45. Corpus A dataset anchors ----------
+
+@misc{nvidia2024omi2,
+  author       = {{NVIDIA}},
+  title        = {{OpenMathInstruct-2}},
+  year         = {2024},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/nvidia/OpenMathInstruct-2},
+  note         = {L0 boundary case (BC-02): judgment-enabling field $\neq$ retained failure instances.}
+}
+
+@misc{openr12025mathraw,
+  author       = {{Hugging Face open-r1}},
+  title        = {{OpenR1-Math-Raw}},
+  year         = {2025},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/open-r1/OpenR1-Math-Raw},
+  note         = {Highest-openness L3: ~1M raw trajectories including unverified ones; three elements incomplete.}
+}
+
+@misc{ai22024dolma,
+  author       = {{Allen Institute for AI}},
+  title        = {Dolma},
+  year         = {2024},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/allenai/dolma}
+}
+
+@misc{hf2024fineweb,
+  author       = {{HuggingFaceFW}},
+  title        = {FineWeb},
+  year         = {2024},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/HuggingFaceFW/fineweb}
+}
+
+@misc{touvron2023llama2,
+  author       = {Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and others},
+  title        = {{Llama 2}: Open foundation and fine-tuned chat models},
+  year         = {2023},
+  eprint       = {2307.09288},
+  archivePrefix = {arXiv},
+  note         = {Meta. 68 authors; full list in the arXiv record.}
+}
+
+@misc{hf2025openr1,
+  author       = {{Hugging Face}},
+  title        = {{OpenR1} ({OpenR1-Math-220k})},
+  year         = {2025},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/huggingface/OpenR1}
+}
+
+@misc{bespokelabs2025stratos,
+  author       = {{Bespoke Labs}},
+  title        = {{Bespoke-Stratos-17k}},
+  year         = {2025},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/bespokelabs/Bespoke-Stratos-17k}
+}
+
+@misc{nvidia2025omr,
+  author       = {{NVIDIA}},
+  title        = {{OpenMathReasoning}},
+  year         = {2025},
+  howpublished = {Hugging Face dataset},
+  url          = {https://huggingface.co/datasets/nvidia/OpenMathReasoning}
+}
+
+@misc{spar2026f26,
+  author       = {{SPAR}},
+  title        = {{SPAR f26}: Human-annotated agent failure traces},
+  year         = {2026},
+  howpublished = {sparai.org project page},
+  url          = {https://sparai.org/projects/f26/recPcCQjmdWCEjPJL},
+  note         = {Accessed 2026-10-13. Open-release plan; audit's only low-confidence unit (CR4).}
+}

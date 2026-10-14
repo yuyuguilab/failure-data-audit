@@ -1,0 +1,7 @@
+﻿level (name),pretraining,SFT,preference,RL,academic,total A,share of 28
+L0 (Discard),2,7,0,0,0,9,32.1%
+L1 (Shadow),0,0,6,0,1,7,25.0%
+L2 (Transient),0,0,0,2,0,2,7.1%
+L3 (Component),0,0,0,0,10,10,35.7%
+L4 (First-class),0,0,0,0,0,0,0.0%
+no-disclosure (-),0,0,0,0,0,0,0.0%

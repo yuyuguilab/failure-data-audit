@@ -1,0 +1,97 @@
+==============================================================================
+FAILURE-DATA LIFECYCLE AUDIT — coding results (access date 2026-10-13)
+==============================================================================
+
+TABLE 1 — Corpus A (dataset layer): lifecycle level distribution
+------------------------------------------------------------------------------
+| level (name) | pretraining | SFT | preference | RL | academic | total A | share of 28 |
+| L0 (Discard) | 2 | 7 | 0 | 0 | 0 | 9 | 32.1% |
+| L1 (Shadow) | 0 | 0 | 6 | 0 | 1 | 7 | 25.0% |
+| L2 (Transient) | 0 | 0 | 0 | 2 | 0 | 2 | 7.1% |
+| L3 (Component) | 0 | 0 | 0 | 0 | 10 | 10 | 35.7% |
+| L4 (First-class) | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% |
+| no-disclosure (-) | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% |
+| total | 2 | 7 | 6 | 2 | 11 | 28 | 100% |
+
+  L4 = 0 across ALL 33 units (explicit vacancy — supports C4).
+  Mainstream-recipe subset (SFT+preference+RL, n=15): {'L0': 7, 'L1': 6, 'L2': 2, 'L3': 0, 'L4': 0} ; median=L1 ; >=L3: 0 (0.0%)
+  SFT layer: 7/7 units at L0 (100%).
+
+TABLE 2 — Corpus B (five 2026 flagships): level x sub-dimension matrix
+------------------------------------------------------------------------------
+| model | level | multi | granularity | attribution | reflection | domain | openness | vehicle | conf |
+| GPT-6 Astra (2026-09-03) | L2 | L0+L2 | trajectory | none | none | alignment | not-released | audit-loop | high |
+| Claude Opus 5.5 (2026-09-22) | L3 | - | trajectory | binary | none | alignment | not-released | audit-loop | medium |
+| GLM-5.3 (2026 H2) | L3 | L0+L3 | step | binary | none | capability | not-released | static-dataset | high |
+| MiMo-V2.6 (2026-09-22) | L3 | - | step | binary | full-report | alignment | not-released | static-dataset | high |
+| DeepSeek-V4.1-Flash (2026-09-09) | L3 | - | trajectory | root-cause | none | capability | not-released | RL-environment | high |
+
+  Corpus B: L2 x1 (GPT-6 Astra), L3 x4 ; >=L3 = 4/5 (80%) ; L4 = 0 ; median = L3
+  Mechanism-level vehicles in B (n=14): {'audit-loop': 4, 'static-dataset': 5, 'RL-environment': 5} ; preference-pair = 0.
+
+TABLE 3 — Sub-dimension distributions (unit level), Corpus A vs Corpus B
+------------------------------------------------------------------------------
+| granularity | nd | none | step | trajectory |
+| Corpus A (n=28) | 1 | 3 | 6 | 18 |
+| Corpus B (n=5) | 0 | 0 | 2 | 3 |
+
+| attribution | binary | nd | none | root-cause |
+| Corpus A (n=28) | 0 | 1 | 26 | 1 |
+| Corpus B (n=5) | 3 | 0 | 1 | 1 |
+
+| reflection | correction-pair | full-report | nd | none |
+| Corpus A (n=28) | 4 | 0 | 1 | 23 |
+| Corpus B (n=5) | 0 | 1 | 0 | 4 |
+
+| domain | alignment | both | capability | nd |
+| Corpus A (n=28) | 1 | 2 | 23 | 2 |
+| Corpus B (n=5) | 3 | 0 | 2 | 0 |
+
+| openness | not-released | released |
+| Corpus A (n=28) | 17 | 11 |
+| Corpus B (n=5) | 5 | 0 |
+
+| vehicle | RL-environment | audit-loop | none | preference-pair | static-dataset |
+| Corpus A (n=28) | 2 | 0 | 9 | 8 | 9 |
+| Corpus B (n=5) | 1 | 2 | 0 | 0 | 2 |
+
+  Three-element pass rates (locate=step/causal; attribute=binary/root-cause;
+  reflect=correction-pair/full-report), L3 units (n=14) vs non-L3 (n=19):
+    locate  : L3 8/14 (57.1%) vs non-L3 0/19 (0.0%)
+    attribute: L3 5/14 (35.7%) vs non-L3 0/19 (0.0%)
+    reflect : L3 5/14 (35.7%) vs non-L3 0/19 (0.0%)
+
+TABLE 4 — Generational contrast (2025 mainstream recipes vs 2026 flagships)
+------------------------------------------------------------------------------
+| cohort | n | L0 | L1 | L2 | L3 | L4 | >=L3 | median |
+| 2025 mainstream (corpus A: SFT+pref+RL) | 15 | 7 | 6 | 2 | 0 | 0 | 0 (0.0%) | L1 |
+| 2026 flagships (corpus B) | 5 | 0 | 0 | 1 | 4 | 0 | 4 (80.0%) | L3 |
+
+  EXPLORATORY Fisher exact, >=L3 x generation, [[0,15],[4,1]]: p(two-sided)=.001, p(one-sided, 2026>2025)=.001
+  (Exploratory only: saturated purposive sample, n=5 flagships, ordinal scale.)
+
+TABLE 5 — Lifecycle level x three elements (all 33 units)
+------------------------------------------------------------------------------
+| level | n | locate | attribute | reflect |
+| L0 | 9 | 0 | 0 | 0 |
+| L1 | 7 | 0 | 0 | 0 |
+| L2 | 3 | 0 | 0 | 0 |
+| L3 | 14 | 8 | 5 | 5 |
+| L4 | 0 | 0 | 0 | 0 |
+
+  EXPLORATORY Fisher exact (L3 vs non-L3), per element:
+    locate: [[8,6],[0,19]] p(two-sided)=<.001
+    attribute: [[5,9],[0,19]] p(two-sided)=.008
+    reflect: [[5,9],[0,19]] p(two-sided)=.008
+
+SENSITIVITY CHECKS
+------------------------------------------------------------------------------
+  S1 exclude boundary/low-conf units {A-01, A-02, A-15, A-28}:
+     2025 cohort n=14, >=L3 = 0 (0.0%) — conclusion unchanged (still 0).
+     2026 cohort: dropping the one medium-conf flagship (Claude) still gives
+     3/4 >=L3; Fisher p(one-sided) = .005
+  S2 cohort variant (pretraining included in 2025 gen): n=17, >=L3=0; Fisher p(one-sided)=<.001
+  S3 whole-corpus contrast (all 28 A vs 5 B): A >=L3 = 10/28; Fisher p(one-sided)=.089
+
+  Ordinal discipline: no means computed anywhere; medians and distributions only.
+
