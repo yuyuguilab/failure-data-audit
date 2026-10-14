@@ -1,0 +1,343 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Jiang, Yungang}(2026)]{waic2026}
+{Jiang, Yungang}.
+\newblock Remarks at the {WAIC} 2026 ``corpus foundations'' forum, reported by
+  {People's Daily Online}, 2026-07-19.
+\newblock People's Daily Online, 2026.
+\newblock URL \url{http://sh.people.com.cn/n2/2026/0719/c134768-41643408.html}.
+\newblock Secondary-tier (news) source; used for motivation only per audit gate
+  G2. Reporter byline TODO.
+
+\bibitem[Hertwig and Erev(2009)]{hertwig2009}
+Ralph Hertwig and Ido Erev.
+\newblock The description--experience gap in risky choice: {A} review.
+\newblock \emph{Trends in Cognitive Sciences}, 13\penalty0 (12):\penalty0
+  517--523, 2009.
+\newblock \doi{10.1016/j.tics.2009.09.021}.
+
+\bibitem[Bechara et~al.(2005)Bechara, Damasio, Tranel, and
+  Damasio]{bechara2005}
+Antoine Bechara, Hanna Damasio, Daniel Tranel, and Antonio~R. Damasio.
+\newblock The {Iowa Gambling Task} and the somatic marker hypothesis: {S}ome
+  questions and answers.
+\newblock \emph{Trends in Cognitive Sciences}, 9\penalty0 (4):\penalty0
+  159--162, 2005.
+\newblock \doi{10.1016/j.tics.2005.02.002}.
+
+\bibitem[Yue et~al.(2025)Yue, Chen, Lu, Zhao, Wang, Yue, Song, and
+  Huang]{yue2025rlvr}
+Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song,
+  and Gao Huang.
+\newblock Does reinforcement learning really incentivize reasoning capacity in
+  {LLMs} beyond the base model?
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+\newblock LeapLab; NeurIPS 2025 Oral.
+
+\bibitem[Kalai et~al.(2025)Kalai, Nachum, Vempala, and Zhang]{kalai2025halluc}
+Adam~Tauman Kalai, Ofir Nachum, Santosh~S. Vempala, and Edwin Zhang.
+\newblock Why language models hallucinate, 2025.
+
+\bibitem[He et~al.(2023)He, Cui, Chen, Hu, and Zhu]{he2023calibration}
+Guande He, Peng Cui, Jianfei Chen, Wenbo Hu, and Jun Zhu.
+\newblock Investigating uncertainty calibration of aligned language models
+  under the multiple-choice setting, 2023.
+
+\bibitem[Xie et~al.(2026)Xie, Liu, and Yao]{xie2026know}
+Xiaohu Xie, Xiaohu Liu, and Benjamin Yao.
+\newblock Know when you're wrong: {A}ligning confidence with correctness for
+  {LLM} error detection, 2026.
+
+\bibitem[An et~al.(2023)An, Ma, Lin, Zheng, Lou, and Chen]{an2023lema}
+Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou, and Weizhu
+  Chen.
+\newblock Learning from mistakes makes {LLM} better reasoner, 2023.
+\newblock LEMA. Microsoft.
+
+\bibitem[Hao et~al.(2026)Hao, Jin, Liao, Liu, and Zhao]{hao2026prs}
+Yupu Hao, Zhuoran Jin, Huanxuan Liao, Kang Liu, and Jun Zhao.
+\newblock Why multi-step tool-use reinforcement learning collapses and how
+  supervisory signals fix it, 2026.
+\newblock PRS. Key Laboratory of Cognition and Decision Intelligence Complex
+  Systems, Institute of Automation, CAS. Reflection-report analyzer:
+  gpt-5-mini. Headline numbers: BFCL-V3 25.75 vs GRPO 3.50 (+22.25 points);
+  ACEBench double-unseen 12.00 vs SFT 0.00.
+
+\bibitem[Yang et~al.(2024)Yang, Ding, Huang, Cen, Song, Xu, Dong, and
+  Tang]{yang2024negsampling}
+Zhen Yang, Ming Ding, Tinglin Huang, Yukuo Cen, Junshuai Song, Bin Xu, Yuxiao
+  Dong, and Jie Tang.
+\newblock Does negative sampling matter? {A} review with insights into its
+  theory and applications.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 46\penalty0 (8):\penalty0 5692--5711, 2024.
+\newblock \doi{10.1109/TPAMI.2024.3371473}.
+
+\bibitem[Awasthi et~al.(2022)Awasthi, Dikkala, and Kamath]{awasthi2022negative}
+Pranjal Awasthi, Nishanth Dikkala, and Pritish Kamath.
+\newblock Do more negative samples necessarily hurt in contrastive learning?
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2022.
+
+\bibitem[Cao et~al.(2026)Cao, Liu, and Chen]{cao2026ndcl}
+Meng Cao, Jiexi Liu, and Songcan Chen.
+\newblock Negatives-dominant contrastive learning for generalization in
+  imbalanced domains.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2026.
+\newblock NDCL.
+
+\bibitem[Lightman et~al.(2024)Lightman, Kosaraju, Burda, Edwards, Baker, Lee,
+  Leike, Schulman, Sutskever, and Cobbe]{lightman2023verify}
+Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy
+  Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl Cobbe.
+\newblock Let's verify step by step.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+\newblock PRM800K: 800k step-level human ratings.
+
+\bibitem[Wang et~al.(2024)Wang, Li, Shao, Xu, Dai, Li, Chen, Wu, and
+  Sui]{wang2024mathshepherd}
+Peiyi Wang, Lei Li, Zhihong Shao, R.~X. Xu, Damai Dai, Yifei Li, Deli Chen,
+  Y.~Wu, and Zhifang Sui.
+\newblock {Math-Shepherd}: Verify and reinforce {LLMs} step-by-step without
+  human annotations.
+\newblock In \emph{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, 2024.
+
+\bibitem[Zheng et~al.(2025)Zheng, Zhang, Zhang, Lin, Lu, Yu, Liu, Zhou, and
+  Lin]{zheng2024processbench}
+Chujie Zheng, Zhenru Zhang, Beichen Zhang, Runji Lin, Keming Lu, Bowen Yu,
+  Dayiheng Liu, Jingren Zhou, and Junyang Lin.
+\newblock {ProcessBench}: Identifying process errors in mathematical reasoning.
+\newblock In \emph{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, 2025.
+
+\bibitem[Song et~al.(2025)Song, Su, Qu, Zhou, and Cheng]{song2025prmbench}
+Mingyang Song, Zhaochen Su, Xiaoye Qu, Jiawei Zhou, and Yu~Cheng.
+\newblock {PRMBench}: A fine-grained and challenging benchmark for
+  process-level reward models, 2025.
+
+\bibitem[Duan et~al.(2024)Duan, Pumacay, Kumar, Wang, Tian, Yuan, Krishna, Fox,
+  Mandlekar, and Guo]{duan2024aha}
+Jiafei Duan, Wilbert Pumacay, Nishanth Kumar, Yi~Ru Wang, Shulin Tian, Wentao
+  Yuan, Ranjay Krishna, Dieter Fox, Ajay Mandlekar, and Yijie Guo.
+\newblock {AHA}: A vision-language-model for detecting and reasoning over
+  failures in robotic manipulation, 2024.
+
+\bibitem[Zhang et~al.(2026)Zhang, Lu, Wang, Kang, Kuo, Cheng, Wang, and
+  Jenkins]{zhang2026foresight}
+Haoran Zhang, Yifu Lu, Boyang Wang, Xuhui Kang, Yen-Ling Kuo, Zezhou Cheng,
+  Mengdi Wang, and Odest~Chadwicke Jenkins.
+\newblock Foresight: Failure detection for long-horizon robotic manipulation
+  with action-conditioned world model latents, 2026.
+
+\bibitem[Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri, Pandey, Kadian,
+  et~al.]{grattafiori2024llama3}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek
+  Kadian, et~al.
+\newblock The {Llama 3} herd of models, 2024.
+\newblock Meta. 561 authors; full list in the arXiv record.
+
+\bibitem[{Qwen Team}(2025)]{qwen2025qwen3}
+{Qwen Team}.
+\newblock {Qwen3} technical report, 2025.
+\newblock 60 authors; full list in the arXiv record.
+
+\bibitem[Lambert et~al.(2025)Lambert, Morrison, Pyatkin, Huang, Ivison,
+  Brahman, Miranda, Liu, Dziri, Lyu, Gu, Malik, Graf, Hwang, Yang, Le~Bras,
+  Tafjord, Wilhelm, Soldaini, Smith, Wang, Dasigi, and
+  Hajishirzi]{lambert2025tulu3}
+Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish
+  Ivison, Faeze Brahman, Lester James~V. Miranda, Alisa Liu, Nouha Dziri, Shane
+  Lyu, Yuling Gu, Saumya Malik, Victoria Graf, Jena~D. Hwang, Jiangjiang Yang,
+  Ronan Le~Bras, Oyvind Tafjord, Chris Wilhelm, Luca Soldaini, Noah~A. Smith,
+  Yizhong Wang, Pradeep Dasigi, and Hannaneh Hajishirzi.
+\newblock {T\"ULU 3}: Pushing frontiers in open language model post-training,
+  2025.
+
+\bibitem[{Anthropic}(2022)]{anthropic2022hhrlhf}
+{Anthropic}.
+\newblock {HH-RLHF}: Human preference data regarding helpfulness and
+  harmlessness.
+\newblock Hugging Face dataset, 2022.
+\newblock URL \url{https://huggingface.co/datasets/Anthropic/hh-rlhf}.
+
+\bibitem[{OpenBMB}(2023)]{openbmb2023ultrafeedback}
+{OpenBMB}.
+\newblock {UltraFeedback}.
+\newblock Hugging Face dataset, 2023.
+\newblock URL \url{https://huggingface.co/datasets/openbmb/UltraFeedback}.
+
+\bibitem[{HuggingFaceTB}(2024)]{hftb2024smoltalk}
+{HuggingFaceTB}.
+\newblock {SmolTalk}: {SmolLM2} post-training corpus.
+\newblock Hugging Face dataset, 2024.
+\newblock URL \url{https://huggingface.co/datasets/HuggingFaceTB/smoltalk}.
+
+\bibitem[{Z.ai}(2025)]{zai2025glm45}
+{Z.ai}.
+\newblock {GLM-4.5} technical report: {A}gentic, reasoning, and coding ({ARC})
+  foundation models, 2025.
+\newblock MIPO (mixed preference optimization with graded negative samples);
+  retired in GLM 5.x per audit record CR3.
+
+\bibitem[Zhang et~al.(2024)Zhang, Lin, Bai, and Mei]{zhang2024npo}
+Ruiqi Zhang, Licong Lin, Yu~Bai, and Song Mei.
+\newblock Negative preference optimization: {F}rom catastrophic collapse to
+  effective unlearning.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2024.
+\newblock NPO.
+
+\bibitem[{DeepSeek-AI}(2025)]{deepseek2025r1}
+{DeepSeek-AI}.
+\newblock {DeepSeek-R1}: Incentivizing reasoning capability in {LLMs} via
+  reinforcement learning, 2025.
+\newblock Published in Nature 645:633--638 (2025).
+
+\bibitem[Yu et~al.(2025)Yu, Zhang, Zhu, Yuan, Zuo, Yue, Dai, Fan, Liu, Liu,
+  Liu, Lin, Lin, Ma, Sheng, Tong, Zhang, Zhang, Zhang, Zhu, Zhu, Chen, Chen,
+  Wang, Yu, Song, Wei, Zhou, Liu, Ma, Zhang, Yan, Qiao, Wu, and
+  Wang]{yu2025dapo}
+Qiying Yu, Zheng Zhang, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Yu~Yue, Weinan
+  Dai, Tiantian Fan, Gaohong Liu, Lingjun Liu, Xin Liu, Haibin Lin, Zhiqi Lin,
+  Bole Ma, Guangming Sheng, Yuxuan Tong, Chi Zhang, Mofan Zhang, Wang Zhang,
+  Hang Zhu, Jinhua Zhu, Jiaze Chen, Jiangjie Chen, Chengyi Wang, Hongli Yu,
+  Yuxuan Song, Xiangpeng Wei, Hao Zhou, Jingjing Liu, Wei-Ying Ma, Ya-Qin
+  Zhang, Lin Yan, Mu~Qiao, Yonghui Wu, and Mingxuan Wang.
+\newblock {DAPO}: An open-source {LLM} reinforcement learning system at scale,
+  2025.
+\newblock ByteDance Seed \& SIA. Identifier corrected from the erroneous
+  2412.19337 per audit verification chain.
+
+\bibitem[Song et~al.(2024)Song, Yin, Yue, Huang, Li, and Lin]{song2024eto}
+Yifan Song, Da~Yin, Xiang Yue, Jie Huang, Sujian Li, and Bill~Yuchen Lin.
+\newblock Trial and error: {E}xploration-based trajectory optimization for
+  {LLM} agents, 2024.
+\newblock ETO.
+
+\bibitem[Yuan et~al.(2024)Yuan, Cui, Wang, Ding, Wang, Deng, Shan, Chen, Xie,
+  Lin, Liu, Zhou, Peng, Liu, and Sun]{yuan2024ultrainteract}
+Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji
+  Shan, Huimin Chen, Ruobing Xie, Yankai Lin, Zhenghao Liu, Bowen Zhou, Hao
+  Peng, Zhiyuan Liu, and Maosong Sun.
+\newblock Advancing {LLM} reasoning generalists with preference trees, 2024.
+\newblock Introduces the UltraInteract dataset.
+
+\bibitem[{OpenAI}(2026)]{openai2026gpt6}
+{OpenAI}.
+\newblock {GPT-6 Astra} system card.
+\newblock OpenAI Deployment Safety Hub, 2026.
+\newblock URL \url{https://deploymentsafety.openai.com/gpt-6-astra}.
+\newblock Accessed 2026-10-13. RL penalty quote: ``penalize cheating and
+  unauthorized actions''.
+
+\bibitem[{Anthropic}(2026)]{anthropic2026claude}
+{Anthropic}.
+\newblock {Claude Opus 5.5} system card and {Alignment Intelligence Report}
+  materials.
+\newblock anthropic.com, 2026.
+\newblock Accessed 2026-10-13. Direct URL to be registered at submission (audit
+  item A3-2); quotes are excerpt-level.
+
+\bibitem[{Z.ai}(2026)]{zai2026glm5}
+{Z.ai}.
+\newblock {GLM-5}: From vibe coding to agentic engineering, 2026.
+\newblock Anchor for GLM-5.3 disclosures. Section 3.1: ``Erroneous segments
+  within trajectories are retained but masked out in the loss function,
+  allowing the model to learn error correction behaviors.'' (verbatim, high
+  confidence).
+
+\bibitem[{Xiaomi LLM-Core Team}(2026)]{xiaomi2026mimo}
+{Xiaomi LLM-Core Team}.
+\newblock {MiMo-V2.6}: Scaling reinforcement learning towards self-improvement,
+  2026.
+\newblock Section 4.2.6 quote: ``keeps the original error recognizable and
+  makes the correction explicit'' (verbatim, high confidence).
+
+\bibitem[{DeepSeek-AI}(2026)]{deepseek2026v41}
+{DeepSeek-AI}.
+\newblock {DeepSeek-V4.1-Flash}: Pushing the limits of {KV} cache compression,
+  2026.
+\newblock Section 5.1.1 quotes: ``we collect negative feedback and model
+  failure cases submitted by internal employees at scale''; ``systematic replay
+  of failures and targeted RL against observed model weaknesses'' (verbatim,
+  high confidence).
+
+\bibitem[{Cyberspace Administration of China}(2026)]{cac2026corpus}
+{Cyberspace Administration of China}.
+\newblock Chinese foundational corpus 4.0 release.
+\newblock cac.gov.cn, 2026.
+\newblock URL \url{https://www.cac.gov.cn/2026-09/16/c_1791306277101208.htm}.
+\newblock Secondary-tier (policy release) source; background only per audit
+  gate G2.
+
+\bibitem[{NVIDIA}(2024)]{nvidia2024omi2}
+{NVIDIA}.
+\newblock {OpenMathInstruct-2}.
+\newblock Hugging Face dataset, 2024.
+\newblock URL \url{https://huggingface.co/datasets/nvidia/OpenMathInstruct-2}.
+\newblock L0 boundary case (BC-02): judgment-enabling field $\neq$ retained
+  failure instances.
+
+\bibitem[{Hugging Face open-r1}(2025)]{openr12025mathraw}
+{Hugging Face open-r1}.
+\newblock {OpenR1-Math-Raw}.
+\newblock Hugging Face dataset, 2025.
+\newblock URL \url{https://huggingface.co/datasets/open-r1/OpenR1-Math-Raw}.
+\newblock Highest-openness L3: ~1M raw trajectories including unverified ones;
+  three elements incomplete.
+
+\bibitem[{Allen Institute for AI}(2024)]{ai22024dolma}
+{Allen Institute for AI}.
+\newblock Dolma.
+\newblock Hugging Face dataset, 2024.
+\newblock URL \url{https://huggingface.co/datasets/allenai/dolma}.
+
+\bibitem[{HuggingFaceFW}(2024)]{hf2024fineweb}
+{HuggingFaceFW}.
+\newblock Fineweb.
+\newblock Hugging Face dataset, 2024.
+\newblock URL \url{https://huggingface.co/datasets/HuggingFaceFW/fineweb}.
+
+\bibitem[Touvron et~al.(2023)Touvron, Martin, Stone, Albert, Almahairi,
+  et~al.]{touvron2023llama2}
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, et~al.
+\newblock {Llama 2}: Open foundation and fine-tuned chat models, 2023.
+\newblock Meta. 68 authors; full list in the arXiv record.
+
+\bibitem[{Hugging Face}(2025)]{hf2025openr1}
+{Hugging Face}.
+\newblock {OpenR1} ({OpenR1-Math-220k}).
+\newblock GitHub repository, 2025.
+\newblock URL \url{https://github.com/huggingface/OpenR1}.
+
+\bibitem[{Bespoke Labs}(2025)]{bespokelabs2025stratos}
+{Bespoke Labs}.
+\newblock {Bespoke-Stratos-17k}.
+\newblock Hugging Face dataset, 2025.
+\newblock URL
+  \url{https://huggingface.co/datasets/bespokelabs/Bespoke-Stratos-17k}.
+
+\bibitem[{NVIDIA}(2025)]{nvidia2025omr}
+{NVIDIA}.
+\newblock {OpenMathReasoning}.
+\newblock Hugging Face dataset, 2025.
+\newblock URL \url{https://huggingface.co/datasets/nvidia/OpenMathReasoning}.
+
+\bibitem[{SPAR}(2026)]{spar2026f26}
+{SPAR}.
+\newblock {SPAR f26}: Human-annotated agent failure traces.
+\newblock sparai.org project page, 2026.
+\newblock URL \url{https://sparai.org/projects/f26/recPcCQjmdWCEjPJL}.
+\newblock Accessed 2026-10-13. Open-release plan; audit's only low-confidence
+  unit (CR4).
+
+\end{thebibliography}
