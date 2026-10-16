@@ -54,7 +54,7 @@ tectonic paper_zh.tex                   # 重编译中文 PDF
   title   = {Success Provides Direction, Failure Provides Precision:
              A Structured Audit of Failure Data in LLM Training},
   author  = {Yugui Yu},
-  journal = {Yu Yugui Strategy Lab, preprint},
+  journal = {YYG Strategy Lab, preprint},
   year    = {2026},
   month   = {10},
   doi     = {10.5281/zenodo.23355929},

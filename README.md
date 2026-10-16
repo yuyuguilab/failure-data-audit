@@ -2,7 +2,7 @@
 
 # Success Provides Direction, Failure Provides Precision: A Structured Audit of Failure Data in LLM Training
 
-*Yu Yugui · Yu Yugui Strategy Lab · they4897@gmail.com*
+*Yugui Yu · YYG Strategy Lab · they4897@gmail.com*
 
 **[Read the paper (PDF)](paper.pdf) · [中文版论文](paper_zh.pdf) · [Codebook](docs-codebook.md) · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355929.svg)](https://doi.org/10.5281/zenodo.23355929)**
 
@@ -54,7 +54,7 @@ Every coding decision in `analysis/coding_data.py` carries its supporting quotat
   title   = {Success Provides Direction, Failure Provides Precision:
              A Structured Audit of Failure Data in LLM Training},
   author  = {Yugui Yu},
-  journal = {Yu Yugui Strategy Lab, preprint},
+  journal = {YYG Strategy Lab, preprint},
   year    = {2026},
   month   = {10},
   doi     = {10.5281/zenodo.23355929},
@@ -69,4 +69,4 @@ Every coding decision in `analysis/coding_data.py` carries its supporting quotat
 
 ## Contact
 
-Yu Yugui · Yu Yugui Strategy Lab · they4897@gmail.com
+Yugui Yu · YYG Strategy Lab · they4897@gmail.com
