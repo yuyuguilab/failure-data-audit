@@ -11,8 +11,7 @@
   {People's Daily Online}, 2026-07-19.
 \newblock People's Daily Online, 2026.
 \newblock URL \url{http://sh.people.com.cn/n2/2026/0719/c134768-41643408.html}.
-\newblock Secondary-tier (news) source; used for motivation only per audit gate
-  G2. Reporter byline TODO.
+\newblock Secondary-tier (news) source; used for motivation only.
 
 \bibitem[Hertwig and Erev(2009)]{hertwig2009}
 Ralph Hertwig and Ido Erev.
@@ -185,8 +184,7 @@ Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish
 {Z.ai}.
 \newblock {GLM-4.5} technical report: {A}gentic, reasoning, and coding ({ARC})
   foundation models, 2025.
-\newblock MIPO (mixed preference optimization with graded negative samples);
-  retired in GLM 5.x per audit record CR3.
+\newblock MIPO (mixed preference optimization with graded negatives).
 
 \bibitem[Zhang et~al.(2024)Zhang, Lin, Bai, and Mei]{zhang2024npo}
 Ruiqi Zhang, Licong Lin, Yu~Bai, and Song Mei.
@@ -214,8 +212,7 @@ Qiying Yu, Zheng Zhang, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Yu~Yue, Weinan
   Zhang, Lin Yan, Mu~Qiao, Yonghui Wu, and Mingxuan Wang.
 \newblock {DAPO}: An open-source {LLM} reinforcement learning system at scale,
   2025.
-\newblock ByteDance Seed \& SIA. Identifier corrected from the erroneous
-  2412.19337 per audit verification chain.
+\newblock ByteDance Seed \& SIA.
 
 \bibitem[Song et~al.(2024)Song, Yin, Yue, Huang, Li, and Lin]{song2024eto}
 Yifan Song, Da~Yin, Xiang Yue, Jie Huang, Sujian Li, and Bill~Yuchen Lin.
@@ -244,8 +241,7 @@ Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji
 \newblock {Claude Opus 5.5} system card and {Alignment Intelligence Report}
   materials.
 \newblock anthropic.com, 2026.
-\newblock Accessed 2026-10-13. Direct URL to be registered at submission (audit
-  item A3-2); quotes are excerpt-level.
+\newblock Accessed 2026-10-13. Quotes are excerpt-level.
 
 \bibitem[{Z.ai}(2026)]{zai2026glm5}
 {Z.ai}.
@@ -284,16 +280,13 @@ Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji
 \newblock {OpenMathInstruct-2}.
 \newblock Hugging Face dataset, 2024.
 \newblock URL \url{https://huggingface.co/datasets/nvidia/OpenMathInstruct-2}.
-\newblock L0 boundary case (BC-02): judgment-enabling field $\neq$ retained
-  failure instances.
 
 \bibitem[{Hugging Face open-r1}(2025)]{openr12025mathraw}
 {Hugging Face open-r1}.
 \newblock {OpenR1-Math-Raw}.
 \newblock Hugging Face dataset, 2025.
 \newblock URL \url{https://huggingface.co/datasets/open-r1/OpenR1-Math-Raw}.
-\newblock Highest-openness L3: ~1M raw trajectories including unverified ones;
-  three elements incomplete.
+\newblock About 1M raw trajectories, including unverified ones.
 
 \bibitem[{Allen Institute for AI}(2024)]{ai22024dolma}
 {Allen Institute for AI}.
@@ -303,7 +296,7 @@ Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji
 
 \bibitem[{HuggingFaceFW}(2024)]{hf2024fineweb}
 {HuggingFaceFW}.
-\newblock Fineweb.
+\newblock {FineWeb}.
 \newblock Hugging Face dataset, 2024.
 \newblock URL \url{https://huggingface.co/datasets/HuggingFaceFW/fineweb}.
 
@@ -337,7 +330,6 @@ Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, et~al.
 \newblock {SPAR f26}: Human-annotated agent failure traces.
 \newblock sparai.org project page, 2026.
 \newblock URL \url{https://sparai.org/projects/f26/recPcCQjmdWCEjPJL}.
-\newblock Accessed 2026-10-13. Open-release plan; audit's only low-confidence
-  unit (CR4).
+\newblock Accessed 2026-10-13. Open-release plan.
 
 \end{thebibliography}
