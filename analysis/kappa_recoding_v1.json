@@ -1,0 +1,210 @@
+{
+ "study": "Pre-registered blind recoding, paper 1 (failure-data audit), v1",
+ "design": {
+  "sample_size": "6 corpus-A units (stratified: pretraining 1, SFT 1, preference 1, RL 1, academic 2) + 1 complete flagship (all mechanisms) + 1 literature family (3 units)",
+  "seed": 20261121,
+  "strata": "proportional-by-design to the pre-registered plan",
+  "second_coder": "fresh independent AI coding agent, blind: saw only the frozen codebook and primary sources; no access to original coding, manuscripts, or analysis output",
+  "execution_note": "executed 2026-11-21, after the originally scheduled 2026-10-27; the second coder holds no memory of the original coding, so the delay has no effect"
+ },
+ "sample": {
+  "seed": 20261121,
+  "sample_A": [
+   [
+    "A-01",
+    "Dolma",
+    "pretraining"
+   ],
+   [
+    "A-05",
+    "Llama 3 (SFT)",
+    "SFT"
+   ],
+   [
+    "A-12",
+    "Tulu 3",
+    "preference"
+   ],
+   [
+    "A-16",
+    "GRPO (R1 instantiation)",
+    "RL"
+   ],
+   [
+    "A-23",
+    "UltraFeedback (original release)",
+    "academic"
+   ],
+   [
+    "A-19",
+    "Math-Shepherd",
+    "academic"
+   ]
+  ],
+  "flagship": [
+   "B-01",
+   "GPT-6 Astra (2026-09-03)",
+   3
+  ],
+  "family": "过程监督",
+  "family_units": [
+   [
+    "A-18",
+    "PRM800K"
+   ],
+   [
+    "A-24",
+    "ProcessBench"
+   ],
+   [
+    "A-25",
+    "PRMBench"
+   ]
+  ]
+ },
+ "result": {
+  "per_field": {
+   "level_main": {
+    "po": 0.9,
+    "kappa": 0.841,
+    "n": 10
+   },
+   "multi_level": {
+    "po": 0.8,
+    "kappa": 0.286,
+    "n": 10
+   },
+   "granularity": {
+    "po": 1.0,
+    "kappa": 1.0,
+    "n": 9
+   },
+   "attribution": {
+    "po": 1.0,
+    "kappa": 1.0,
+    "n": 9
+   },
+   "reflection": {
+    "po": 0.778,
+    "kappa": -0.125,
+    "n": 9
+   },
+   "domain": {
+    "po": 0.444,
+    "kappa": -0.098,
+    "n": 9
+   },
+   "openness": {
+    "po": 0.889,
+    "kappa": 0.769,
+    "n": 9
+   },
+   "vehicle": {
+    "po": 0.889,
+    "kappa": 0.833,
+    "n": 9
+   }
+  },
+  "overall": {
+   "po": 0.838,
+   "kappa": 0.818,
+   "n": 74
+  },
+  "disagreements": [
+   [
+    "A-01",
+    "Dolma",
+    "domain",
+    "nd",
+    "capability"
+   ],
+   [
+    "A-05",
+    "Llama 3 (SFT)",
+    "domain",
+    "capability",
+    "both"
+   ],
+   [
+    "A-12",
+    "Tulu 3",
+    "domain",
+    "capability",
+    "both"
+   ],
+   [
+    "A-12",
+    "Tulu 3",
+    "openness",
+    "not_released",
+    "released"
+   ],
+   [
+    "A-16",
+    "GRPO (R1 instantiation)",
+    "domain",
+    "capability",
+    "both"
+   ],
+   [
+    "A-23",
+    "UltraFeedback (original release)",
+    "multi_level",
+    "",
+    "l1+l3"
+   ],
+   [
+    "A-23",
+    "UltraFeedback (original release)",
+    "reflection",
+    "correction_pair",
+    "none"
+   ],
+   [
+    "A-23",
+    "UltraFeedback (original release)",
+    "domain",
+    "capability",
+    "both"
+   ],
+   [
+    "A-23",
+    "UltraFeedback (original release)",
+    "vehicle",
+    "static_dataset",
+    "preference_pair"
+   ],
+   [
+    "A-18",
+    "PRM800K",
+    "reflection",
+    "none",
+    "correction_pair"
+   ],
+   [
+    "B-01",
+    "GPT-6 Astra (2026-09-03)",
+    "level_main",
+    "l2",
+    "l3"
+   ],
+   [
+    "B-01",
+    "GPT-6 Astra (2026-09-03)",
+    "multi_level",
+    "l0+l2",
+    "l2+l3"
+   ]
+  ],
+  "k2_mech_levels": [
+   "l2",
+   "l3"
+  ],
+  "k2_main": "l3",
+  "k2_n_mech": 11
+ },
+ "headline_robustness": {
+  "under_blind_reading_of_B-01(L3)": "flagships at >=L3 5/5 (vs 4/5), cohort median L3 unchanged; Fisher exact p = 0.0001 (vs 0.001); vehicle-migration finding (0/14 preference-pair carrying) confirmed by the blind coder's 11 mechanisms",
+  "conclusion": "no disagreement crosses a headline claim; the single main-code disagreement (B-01) strengthens rather than weakens the generational contrast"
+ }
+}

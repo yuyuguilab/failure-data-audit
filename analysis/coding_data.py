@@ -735,7 +735,7 @@ ax.set_xticks(list(xpos))
 ax.set_xticklabels(["L0\nDiscard", "L1\nShadow", "L2\nTransient", "L3\nComponent", "L4\nFirst-class"])
 ax.set_ylabel("Share of units (%)")
 ax.set_ylim(0, 100)
-ax.set_title("Failure-data lifecycle levels by cohort: 2025 mainstream vs 2026 flagships", fontsize=11)
+ax.set_title("Failure-data lifecycle levels by cohort: 2023–25 mainstream vs 2026 flagships", fontsize=11)
 ax.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0.0, 1.02))
 ax.text(4.0, 50, "0%\nin all\ncohorts", ha="center", va="center", fontsize=8,
         color="#a50f15", fontweight="bold")

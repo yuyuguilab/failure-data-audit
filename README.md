@@ -17,9 +17,11 @@ This paper asks whether the industry is closing that gap. We audit **33 units ac
 1. **The L4 tier is vacant: 0/33 units.** No disclosed pipeline treats failure data as a first-class, methodology-level asset, and no failure-annotated dataset is publicly released by any frontier lab (openness 0/5 among flagships).
 2. **Mainstream open recipes sit at the bottom**: 0/15 units reach L3 or above; the SFT layer is 7/7 pure L0 (discard).
 3. **A generational shift is underway in the 2026 flagships**: 4/5 reach L3 (ordinal median L1→L3), with DeepSeek-V4.1-Flash (employee-submitted failure cases → systematic replay environments → targeted RL, capability domain) and MiMo-V2.6 (reward-hacking failures → reflection-revision data with the original error retained) closest to L4.
-4. **The vehicle of failure signals is migrating** from preference pairs (6/15 mainstream units) to RL environments and audit loops (0/14 flagship mechanisms).
+4. **The vehicle of failure signals is migrating** from preference pairs (6/15 mainstream units; 0/14 flagship mechanisms) to RL environments and audit loops.
 
 The paper closes with a roadmap for making failure data a first-class citizen: collection protocols, toxicity cleaning, the three-part "error type + root cause + correction" schema, and an open failure-corpus recommendation.
+
+**Reliability.** The pre-registered blind recoding of a stratified 20% sample (six Corpus-A units, one complete flagship, one literature family; fresh independent AI coder, seed 20261121) returned raw agreement 0.838 and Cohen's κ = 0.818 over 74 decisions (threshold 0.70; main code alone 0.900/0.841). Data and computation script: `analysis/kappa_recoding_v1.json`.
 
 ## Repository Structure
 

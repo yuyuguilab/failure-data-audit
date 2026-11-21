@@ -5,9 +5,9 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[{Jiang, Yungang}(2026)]{waic2026}
-{Jiang, Yungang}.
-\newblock Remarks at the {WAIC} 2026 ``corpus foundations'' forum, reported by
+\bibitem[{Jiang, Yugang}(2026)]{waic2026}
+{Jiang, Yugang}.
+\newblock Remarks at the {WAIC} 2026 corpus innovation forum, reported by
   {People's Daily Online}, 2026-07-19.
 \newblock People's Daily Online, 2026.
 \newblock URL \url{http://sh.people.com.cn/n2/2026/0719/c134768-41643408.html}.
@@ -15,10 +15,10 @@
 
 \bibitem[Hertwig and Erev(2009)]{hertwig2009}
 Ralph Hertwig and Ido Erev.
-\newblock The description--experience gap in risky choice: {A} review.
+\newblock The description--experience gap in risky choice.
 \newblock \emph{Trends in Cognitive Sciences}, 13\penalty0 (12):\penalty0
   517--523, 2009.
-\newblock \doi{10.1016/j.tics.2009.09.021}.
+\newblock \doi{10.1016/j.tics.2009.09.004}.
 
 \bibitem[Bechara et~al.(2005)Bechara, Damasio, Tranel, and
   Damasio]{bechara2005}
@@ -160,6 +160,7 @@ Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish
   Yizhong Wang, Pradeep Dasigi, and Hannaneh Hajishirzi.
 \newblock {T\"ULU 3}: Pushing frontiers in open language model post-training,
   2025.
+\newblock Conference on Language Modeling (COLM) 2025.
 
 \bibitem[{Anthropic}(2022)]{anthropic2022hhrlhf}
 {Anthropic}.
@@ -182,8 +183,8 @@ Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish
 
 \bibitem[{Z.ai}(2025)]{zai2025glm45}
 {Z.ai}.
-\newblock {GLM-4.5} technical report: {A}gentic, reasoning, and coding ({ARC})
-  foundation models, 2025.
+\newblock {GLM-4.5}: {A}gentic, {R}easoning, and {C}oding ({ARC}) foundation
+  models, 2025.
 \newblock MIPO (mixed preference optimization with graded negatives).
 
 \bibitem[Zhang et~al.(2024)Zhang, Lin, Bai, and Mei]{zhang2024npo}
@@ -241,6 +242,7 @@ Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji
 \newblock {Claude Opus 5.5} system card and {Alignment Intelligence Report}
   materials.
 \newblock anthropic.com, 2026.
+\newblock URL \url{https://www.anthropic.com/news/claude-opus-5-5}.
 \newblock Accessed 2026-10-13. Quotes are excerpt-level.
 
 \bibitem[{Z.ai}(2026)]{zai2026glm5}
@@ -262,10 +264,10 @@ Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji
 {DeepSeek-AI}.
 \newblock {DeepSeek-V4.1-Flash}: Pushing the limits of {KV} cache compression,
   2026.
-\newblock Section 5.1.1 quotes: ``we collect negative feedback and model
-  failure cases submitted by internal employees at scale''; ``systematic replay
-  of failures and targeted RL against observed model weaknesses'' (verbatim,
-  high confidence).
+\newblock Section 5.1.1 quotes (verbatim): ``we collect negative feedback and
+  model failure cases submitted by internal employees at scale''; ``systematic
+  replay of failures and targeted reinforcement learning against observed model
+  weaknesses''.
 
 \bibitem[{Cyberspace Administration of China}(2026)]{cac2026corpus}
 {Cyberspace Administration of China}.
@@ -310,7 +312,7 @@ Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, et~al.
 {Hugging Face}.
 \newblock {OpenR1} ({OpenR1-Math-220k}).
 \newblock GitHub repository, 2025.
-\newblock URL \url{https://github.com/huggingface/OpenR1}.
+\newblock URL \url{https://github.com/huggingface/open-r1}.
 
 \bibitem[{Bespoke Labs}(2025)]{bespokelabs2025stratos}
 {Bespoke Labs}.
